@@ -53,16 +53,19 @@ class SpeedTestViewController: UIViewController, UITextFieldDelegate {
                 sleep(UInt32(defaults.value(forKey: "startingdelay") as? Int ?? 1))
                 // Basically making a separate array, updating that, and then setting UserDefault's array with the new array
                 var tries = defaults.object(forKey: "latesttries") as? Array<Int>
-                tries?.insert(Int(tfWPM.text!) ?? 0, at: 0)
+                tries!.insert(Int(tfWPM.text!) ?? ((defaults.value(forKey: "defaultspeed") as? Int) ?? 0), at: 0)
                 let triesSize = (tries?.count ?? 3) - 1
                 // Remove oldest entry to save memory
-                tries?.remove(at: triesSize)
+                tries!.remove(at: triesSize)
                 defaults.setValue(tries, forKey: "latesttries")
                 defaults.setValue((defaults.value(forKey: "totaltries") as? Int ?? -1) + 1, forKey: "totaltries")
-                defaults.setValue(Int(tfWPM.text!) ?? defaults.value(forKey: "defaultspeed"), forKey: "latesttries")
                 // If field empty, use default speed from UserDefaults. If UserDefaults doesn't work, use 60 words/min
                 let randomParagraph = paragraph.getParagraph()
-                speedtest = SpeedTest(lbWord, lbStatus, randomParagraph, Int(tfWPM.text!) ?? (defaults.value(forKey: "defaultspeed") as? Int ?? 60))
+                let wpm = Int(tfWPM.text!) ?? defaults.value(forKey: "defaultspeed") as? Int ?? 60
+                if (defaults.value(forKey: "topspeed") as? Int ?? 0) < wpm {
+                    defaults.setValue(wpm, forKey: "topspeed")
+                }
+                speedtest = SpeedTest(lbWord, lbStatus, randomParagraph, wpm)
                 speedtest.start()
             } else {
                 status.errorMessage(lbStatus, "Error reading input file.")

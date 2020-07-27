@@ -30,6 +30,7 @@ class StatisticsViewController: UIViewController {
         tfSecondLatest.text = "\((defaults.object(forKey: "latesttries") as? [Int])?[1] ?? -1)"
         tfThirdLatest.text = "\((defaults.object(forKey: "latesttries") as? [Int])?[2] ?? -1)"
         tfTries.text = "\(defaults.value(forKey: "totaltries") ?? -1)"
-        // Without archive working, leaderboard cannot be filled with history of users
+        // Without archive working, leaderboard cannot be filled with history of users. Filling with current user and its top speed
+        tvUsersList.text = "\(defaults.value(forKey: "username") ?? "NO USERNAME") \(defaults.value(forKey: "topspeed") ?? 0)"
     }
 }
