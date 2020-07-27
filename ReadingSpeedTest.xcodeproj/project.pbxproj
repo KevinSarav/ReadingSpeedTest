@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		801D2E7824CCA73D000B1EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E7724CCA73D000B1EF0 /* AppDelegate.swift */; };
 		801D2E7A24CCA73D000B1EF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E7924CCA73D000B1EF0 /* SceneDelegate.swift */; };
-		801D2E7C24CCA73D000B1EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E7B24CCA73D000B1EF0 /* ViewController.swift */; };
+		801D2E7C24CCA73D000B1EF0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E7B24CCA73D000B1EF0 /* StartViewController.swift */; };
 		801D2E7F24CCA73D000B1EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801D2E7D24CCA73D000B1EF0 /* Main.storyboard */; };
 		801D2E8124CCA73F000B1EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801D2E8024CCA73F000B1EF0 /* Assets.xcassets */; };
 		801D2E8424CCA73F000B1EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801D2E8224CCA73F000B1EF0 /* LaunchScreen.storyboard */; };
+		801D2E8E24CCA8B6000B1EF0 /* SpeedTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E8D24CCA8B6000B1EF0 /* SpeedTestViewController.swift */; };
+		801D2E9124CCA954000B1EF0 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E9024CCA954000B1EF0 /* StatisticsViewController.swift */; };
+		801D2E9324CCA969000B1EF0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E9224CCA969000B1EF0 /* SettingsViewController.swift */; };
+		801D2E9524CCABF7000B1EF0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E9424CCABF7000B1EF0 /* User.swift */; };
+		801D2E9724CCC6E3000B1EF0 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E9624CCC6E3000B1EF0 /* Status.swift */; };
+		801D2E9C24CCDCE3000B1EF0 /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2E9B24CCDCE3000B1EF0 /* Paragraph.swift */; };
+		801D2EA024CCF039000B1EF0 /* paragraphs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 801D2E9F24CCF039000B1EF0 /* paragraphs.txt */; };
+		801D2EA324CCFE64000B1EF0 /* SpeedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D2EA224CCFE64000B1EF0 /* SpeedTest.swift */; };
+		80E83BDF24CD4FA900FF7F9B /* UserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83BDE24CD4FA900FF7F9B /* UserDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		801D2E7424CCA73D000B1EF0 /* ReadingSpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingSpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801D2E7724CCA73D000B1EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		801D2E7924CCA73D000B1EF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		801D2E7B24CCA73D000B1EF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		801D2E7B24CCA73D000B1EF0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		801D2E7E24CCA73D000B1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		801D2E8024CCA73F000B1EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801D2E8324CCA73F000B1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		801D2E8524CCA73F000B1EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801D2E8D24CCA8B6000B1EF0 /* SpeedTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestViewController.swift; sourceTree = "<group>"; };
+		801D2E9024CCA954000B1EF0 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		801D2E9224CCA969000B1EF0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		801D2E9424CCABF7000B1EF0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		801D2E9624CCC6E3000B1EF0 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		801D2E9B24CCDCE3000B1EF0 /* Paragraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paragraph.swift; sourceTree = "<group>"; };
+		801D2E9F24CCF039000B1EF0 /* paragraphs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = paragraphs.txt; sourceTree = "<group>"; };
+		801D2EA224CCFE64000B1EF0 /* SpeedTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTest.swift; sourceTree = "<group>"; };
+		80E83BDE24CD4FA900FF7F9B /* UserDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		801D2E7624CCA73D000B1EF0 /* ReadingSpeedTest */ = {
 			isa = PBXGroup;
 			children = (
+				801D2E9F24CCF039000B1EF0 /* paragraphs.txt */,
+				801D2E8C24CCA83D000B1EF0 /* Views */,
+				801D2E8B24CCA823000B1EF0 /* Models */,
 				801D2E7724CCA73D000B1EF0 /* AppDelegate.swift */,
 				801D2E7924CCA73D000B1EF0 /* SceneDelegate.swift */,
-				801D2E7B24CCA73D000B1EF0 /* ViewController.swift */,
 				801D2E7D24CCA73D000B1EF0 /* Main.storyboard */,
 				801D2E8024CCA73F000B1EF0 /* Assets.xcassets */,
 				801D2E8224CCA73F000B1EF0 /* LaunchScreen.storyboard */,
 				801D2E8524CCA73F000B1EF0 /* Info.plist */,
 			);
 			path = ReadingSpeedTest;
+			sourceTree = "<group>";
+		};
+		801D2E8B24CCA823000B1EF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				801D2E9424CCABF7000B1EF0 /* User.swift */,
+				801D2E9624CCC6E3000B1EF0 /* Status.swift */,
+				801D2E9B24CCDCE3000B1EF0 /* Paragraph.swift */,
+				801D2EA224CCFE64000B1EF0 /* SpeedTest.swift */,
+				80E83BDE24CD4FA900FF7F9B /* UserDB.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		801D2E8C24CCA83D000B1EF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				801D2E7B24CCA73D000B1EF0 /* StartViewController.swift */,
+				801D2E8F24CCA8BF000B1EF0 /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		801D2E8F24CCA8BF000B1EF0 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				801D2E8D24CCA8B6000B1EF0 /* SpeedTestViewController.swift */,
+				801D2E9024CCA954000B1EF0 /* StatisticsViewController.swift */,
+				801D2E9224CCA969000B1EF0 /* SettingsViewController.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801D2EA024CCF039000B1EF0 /* paragraphs.txt in Resources */,
 				801D2E8424CCA73F000B1EF0 /* LaunchScreen.storyboard in Resources */,
 				801D2E8124CCA73F000B1EF0 /* Assets.xcassets in Resources */,
 				801D2E7F24CCA73D000B1EF0 /* Main.storyboard in Resources */,
@@ -138,9 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801D2E7C24CCA73D000B1EF0 /* ViewController.swift in Sources */,
+				801D2E8E24CCA8B6000B1EF0 /* SpeedTestViewController.swift in Sources */,
+				801D2E9124CCA954000B1EF0 /* StatisticsViewController.swift in Sources */,
+				801D2E7C24CCA73D000B1EF0 /* StartViewController.swift in Sources */,
+				801D2E9724CCC6E3000B1EF0 /* Status.swift in Sources */,
+				80E83BDF24CD4FA900FF7F9B /* UserDB.swift in Sources */,
 				801D2E7824CCA73D000B1EF0 /* AppDelegate.swift in Sources */,
 				801D2E7A24CCA73D000B1EF0 /* SceneDelegate.swift in Sources */,
+				801D2E9C24CCDCE3000B1EF0 /* Paragraph.swift in Sources */,
+				801D2E9324CCA969000B1EF0 /* SettingsViewController.swift in Sources */,
+				801D2E9524CCABF7000B1EF0 /* User.swift in Sources */,
+				801D2EA324CCFE64000B1EF0 /* SpeedTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
